@@ -19,8 +19,9 @@
   "author": "Auth0",
   "license": "MIT",
   "dependencies": {
-    "passport": "~0.1.15",
-    "ldapjs": "~1.0.0"
+    "debug": "^2.2.0",
+    "ldapjs": "https://github.com/mweibel/node-ldapjs#add-debug",
+    "passport": "~0.1.15"
   },
   "devDependencies": {
     "chai": "~1.5.0",
